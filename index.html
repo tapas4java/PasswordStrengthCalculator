@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Password Strength Calculator</title>
+	<script type="text/javascript" src="app.js" />
+	<link rel="stylesheet" type="text/css" href="app.css" />
+</head>
+<body>
+    <center>Password Strength Calculator</center>
+	<hr />
+	<input type="text" id="pass" value="" onkeyup="getPasswordStrength();" />
+	<span id="strength"> </span>
+	<br/>
+	<br/>
+	<p>NOTE: Week - 2 points, Medium - 3 point, Strong - 4 points
+		<ul>
+			<li>Valid : Length between 6 - 20</li>
+			<li>1 point : Atleast 1 lower case character</li>
+			<li>1 point : Atleast 1 upper case character</li>
+			<li>1 point : Atleast 1 digit case character</li>
+			<li>1 point : Atleast 1 special character</li>
+		</ul>
+	</p>
+</body>
+</html>    
